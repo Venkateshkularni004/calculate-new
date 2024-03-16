@@ -1,52 +1,59 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
     background-color: #2b2b2b;
 }
 
-.cal-wrap{
+.cal-wrap {
     width: 318.4px;
     margin: 100px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for a modern look */
 }
 
-.cal-function{
+.cal-function {
     background-color: #cdcdcd;
+    border-radius: 5px; /* Rounded corners for aesthetic appeal */
 }
 
-.cal-button{
+.cal-button {
     height: 75px;
     width: 75px;
-    border: 0px;
+    border: none;
+    cursor: pointer; /* Changing cursor on hover for better usability */
 }
 
-.cal-button:hover{
-    background-color: grey;
+.cal-button:hover {
+    background-color: #808080; /* Slightly darker shade on hover for visual feedback */
 }
 
-.cal-display{
+.cal-display {
     height: 75px;
     width: 100%;
-    border: 0px;
+    border: none;
+    padding: 0 10px; /* Adding padding for better spacing */
     text-align: right;
     font-size: 25px;
     font-weight: 400;
-    color: grey;
+    color: #808080; /* Adjusting text color for readability */
 }
 
-.cal-display-sol{
+.cal-display-sol {
     height: 50px;
     width: 100%;
-    border: 0px;
+    border: none;
+    padding: 0 10px; /* Adding padding for better spacing */
     text-align: right;
     font-size: 40px;
     font-weight: 400;
 }
 
-.cal-sol{
+.cal-sol {
     background-color: #85c1e8;
+    border-radius: 5px; /* Rounded corners for consistency */
 }
 
-.cal-sol:hover{
+.cal-sol:hover {
     background-color: #1fa7ff;
 }
