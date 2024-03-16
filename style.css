@@ -1,78 +1,52 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+body{
+    margin: 0px;
+    background-color: #2b2b2b;
 }
 
-.cal-wrap {
-    width: 320px;
+.cal-wrap{
+    width: 318.4px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
-.cal-display,
-.cal-display-sol,
-.cal-button,
-.cal-function {
-    font-size: 1.2em;
-}
-
-.cal-display,
-.cal-display-sol {
-    height: 60px;
-    width: calc(100% - 40px);
-    border: none;
-    text-align: right;
-    font-weight: 400;
-    color: #333333;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.cal-display-sol {
-    height: 80px;
-    font-size: 2em;
-}
-
-.cal-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.cal-table td {
-    padding: 5px;
-}
-
-.cal-button {
-    height: 50px;
-    width: calc(25% - 10px);
-    border: none;
-    border-radius: 5px;
-    background-color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.cal-button:hover {
-    background-color: #eeeeee;
-}
-
-.cal-function {
+.cal-function{
     background-color: #cdcdcd;
 }
 
-.cal-sol {
-    background-color: #85c1e8;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.cal-button{
+    height: 75px;
+    width: 75px;
+    border: 0px;
 }
 
-.cal-sol:hover {
+.cal-button:hover{
+    background-color: grey;
+}
+
+.cal-display{
+    height: 75px;
+    width: 100%;
+    border: 0px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 400;
+    color: grey;
+}
+
+.cal-display-sol{
+    height: 50px;
+    width: 100%;
+    border: 0px;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.cal-sol{
+    background-color: #85c1e8;
+}
+
+.cal-sol:hover{
     background-color: #1fa7ff;
 }
